@@ -1,0 +1,6 @@
+L=8, B=3, dim=512
+loss = MSE(mag) + MSE(wave)
+for DNS:
+    Adam, 5e-4, 0.05, 400
+for VBD:
+    Adam, 5e-5, 0.05, 200
